@@ -22,7 +22,7 @@ _To get a local copy up and running follow these simple steps._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/mandelatuks/Budget-app.git
+   git@github.com:mandelatuks/Budget-app.git
    ```
 2. Goto project directory
    ```sh
