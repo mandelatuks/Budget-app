@@ -11,6 +11,12 @@
 
 <%= render partial: "categories/category", locals: {category: @category} %>
 
+<div id="transactions">
+  <% @transactions.each do |transaction| %>
+    <%= render transaction %>
+  <% end %>
+</div>
+
 <footer>
 <%= link_to "Add Transaction", new_category_transaction_path %>
 </footer>
