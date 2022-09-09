@@ -1,75 +1,95 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Money Wallet
+> Money Wallet is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+----
+_[Here](https://www.loom.com/share/9ca8b62a3c9042b68cb9e945b0a4e42e) is the link to the project presentation video_
 
-> Description the project.
+_[Here](https://mighty-plains-68460.herokuapp.com/) is the link to the live demo_
 
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+---
+  ![Screenshot from 2022-09-09 01-25-18](https://user-images.githubusercontent.com/38649067/189242780-148d09a6-a4a9-466b-b194-3ea84f9e336c.png)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+# Getting Started
 
 
 
-## Authors
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+_To get a local copy up and running follow these simple steps._
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+1. Clone the repo
+   ```sh
+   git@github.com:mandelatuks/Budget-app.git
+   ```
+2. Goto project directory
+   ```sh
+   cd budget-app
+   ```
 
-## 🤝 Contributing
+3. Configure `database.yml` in the config folder according to your postgreSQL configuration
+4. Run app
+   ```sh
+   rails server
+   ```
+   or
+   ```sh
+   rails s
+   ```
+
+
+# Testing
+
+`bundle exec rspec spec` will run all the tests.
+
+Also, you can run `bundle exec rspec spec/` to run specific tests.
+
+You can also run `RAILS_ENV=test rspec spec/` to run the tests in test mode.
+
+## Errors
+
+If you encounter any errors, run the following commands.
+
+- Run `rails db:drop db:create db:migrate` to drop, create and migrate a new database.
+
+- Run `rubocop && rubocop -A` to check for and fix code errors.
+
+# This project was built with
+
+- Ruby on Rails
+
+- PostgreSQL
+
+- Bootstrap CSS Framework
+
+# Author
+
+
+👤 **Mandela Tumukunde**
+
+- GitHub: [@mandelatuks](https://github.com/mandelatuks)
+- Twitter: [@MandelaTm1](https://twitter.com/MandelaTm1)
+- LinkedIn: [@Mandela Tumukunde](https://www.linkedin.com/in/mandela-tumukunde-794755194/)
+
+
+# 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page].
 
-## Show your support
+# Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+# Acknowledgement
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to anyone whose code was a source of inspiration.
+- A big thanks to [@microverseinc](https://github.com/microverseinc).
+- The design template provider [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
 
-## 📝 License
+# 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
