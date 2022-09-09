@@ -29,6 +29,10 @@
   margin: 0;
 }
 
+.tittle_app {
+  margin-bottom: 100px;
+}
+
 .splash-page {
   display: flex;
   flex-direction: column;
@@ -38,6 +42,10 @@
   margin-top: 100px;
 }
 
+.splash-page .splash-actions {
+  margin-bottom: 10px;
+}
+
 footer a {
   color: #fff;
   font-weight: 600;
@@ -45,10 +53,20 @@ footer a {
 }
 
 .splash-actions a {
+  display: flex;
+  flex-direction: column;
   background: #3778c2;
+  justify-content: center;
+  width: 10rem;
+  height: 2rem;
   color: #fff;
   cursor: pointer;
   transition: 0.6s;
+}
+
+.sign-in-btns {
+  color: #434b54;
+  text-decoration: none;
 }
 
 body {
