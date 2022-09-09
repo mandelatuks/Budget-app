@@ -33,7 +33,7 @@ RSpec.feature 'Groups', type: :feature do # rubocop:disable Metrics/BlockLength
     attach_file('Image or Icon', 'app/assets/images/mugandbean.jpg')
     find('input[name="commit"]').click
     click_link 'Test'
-    expect(page).to have_content('Total amount:')
+    expect(page).to have_content('$')
     expect(page).to have_content('Delete')
   end
 
